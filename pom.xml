@@ -42,6 +42,10 @@
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 						<region>us-east-2</region>
+						<properties>
+							<http.port>8081</http.port>
+							<mule.env>Dev</mule.env>
+						</properties>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
